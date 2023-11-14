@@ -1,11 +1,10 @@
 var numSecreto = parseInt(Math.random() * 101);
-alert(numSecreto);
 var qntTentativas = 0;
 
 while (chute != 48 && qntTentativas != 20) {
   qntTentativas++;
   alert(qntTentativas + "a tentativa")
-  var chute = prompt("Insira um número de 1 a 100:")
+  var chute = prompt("Insira um número de 0 a 100:")
 
   if (chute > numSecreto) {
     alert("Chute mais baixo!")
