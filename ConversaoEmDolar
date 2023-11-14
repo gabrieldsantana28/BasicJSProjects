@@ -1,0 +1,6 @@
+var valor = 50;
+var cotacaoEmDolar = 5.32;
+var nome = "Gabriel";
+
+var valorEmReal = valor * cotacaoEmDolar;
+alert(nome + ": R$ " + valorEmReal.toFixed(2));
